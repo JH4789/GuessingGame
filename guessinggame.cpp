@@ -46,6 +46,7 @@ int main() {
     }
     //Right on
     if(guessnumber == number){
+      count = count + 1;
       cout << "You guessed the right number!\n";
       cout << "It took you ";
       cout << count;
